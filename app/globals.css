@@ -2,3 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
+.text_font {
+  font-family: 'Montserrat';
+}
+
+.logo_font {
+  font-family: 'Monoton', cursive;
+}
+
+
+._transition {
+  transition: 0.3s ease-out;
+}
+
+.red_rising_img {
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://staticpages.mngbcn.com/homes/images/ss23/she/julio/she_landing_nn_2407.jpg?imwidth=1349&imdensity=1");
+  background-size: cover;
+}
+
+.casual_img {
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://mobimg.b-cdn.net/v3/fetch/d1/d18e5b086c37c7197b6e0556141d7669.jpeg?w=1470&r=0.5625");
+  background-size: cover;
+}
+
+.casual_img:hover {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://mobimg.b-cdn.net/v3/fetch/d1/d18e5b086c37c7197b6e0556141d7669.jpeg?w=1470&r=0.5625");
+  background-size: cover;
+}
+
+.professional_img {
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://i.pinimg.com/736x/46/4c/cf/464ccff1acfde9078714098059e47abb.jpg");
+  background-size: cover;
+}
+
+.professional_img:hover {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://i.pinimg.com/736x/46/4c/cf/464ccff1acfde9078714098059e47abb.jpg");
+  background-size: cover;
+}
+
+.classy_img {
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://cdn.lmbd.ru/c65714b9-a20f-4973-aa2a-d7c32cd5319d/");
+  background-size: cover;
+}
+
+.classy_img:hover {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://cdn.lmbd.ru/c65714b9-a20f-4973-aa2a-d7c32cd5319d/");
+  background-size: cover;
+}
+
+.sporty_img {
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://pbs.twimg.com/media/FYBMjYIWIAI29td?format=jpg&name=large");
+  background-size: cover;
+}
+
+.sporty_img:hover {
+  background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://pbs.twimg.com/media/FYBMjYIWIAI29td?format=jpg&name=large");
+  background-size: cover;
+}
