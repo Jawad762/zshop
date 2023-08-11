@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         dimensionValueID: 'AgeAppropriate:Teens'
       },
       headers: {
-        'X-RapidAPI-Key': '0f049c01ecmsh2f0ebc7faf1d5edp105baajsna983c14680c9',
+        'X-RapidAPI-Key': 'fd8dde8db3msh3d227c559c08d64p16b45cjsn285f15046a40',
         'X-RapidAPI-Host': 'kohls.p.rapidapi.com'
       }
     };
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
         dimensionValueID: 'AgeAppropriate:Teens'
       },
       headers: {
-        'X-RapidAPI-Key': '0f049c01ecmsh2f0ebc7faf1d5edp105baajsna983c14680c9',
+        'X-RapidAPI-Key': 'fd8dde8db3msh3d227c559c08d64p16b45cjsn285f15046a40',
         'X-RapidAPI-Host': 'kohls.p.rapidapi.com'
       }
     };
