@@ -35,7 +35,7 @@ const Cart = () => {
                 {cartProducts.map((product,index) => {
                     return (
                         <tr className="bg-white dark:bg-gray-800">
-                        <th scope="row" className="py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white flex items-center gap-1 text-[0.6rem] break-words">
+                        <th scope="row" className="py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white flex items-center gap-1 sm:text-[0.6rem] break-words">
                             {product.DisplayName || product.productTitle}<p className='font-bold'>({product.size})</p>
                         </th>
                         <td className="py-4 ">
