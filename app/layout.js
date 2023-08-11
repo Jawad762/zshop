@@ -10,11 +10,6 @@ import { usePathname } from 'next/navigation'
 
 export const Context = createContext()
 
-export const metadata = {
-  title: 'Z-SHOP',
-  description: '',
-}
-
 export default function RootLayout({ children }) {
 
     const [showModal, setShowModal] = useState(false)
