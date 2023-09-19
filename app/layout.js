@@ -64,6 +64,9 @@ export default function RootLayout({ children }) {
           axios.request(womenOptions),
         ]);
 
+        console.log(menData)
+        console.log(womenData)
+
         setMenClothes(menData.data.payload.products);
         originalMenClothes.current = menData.data.payload.products;
         setWomenClothes(womenData.data.payload.products);

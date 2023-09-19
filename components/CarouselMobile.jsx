@@ -30,8 +30,8 @@ export default class ResizableMobile extends Component {
             <Slider {...settings}>
               {images.map(image => {
                 return (
-                  <div className="h-48 focus:outline-none px-2">
-                    <img className='h-full w-full shadow-xl' src={image.link} />
+                  <div className="h-48 px-2 focus:outline-none">
+                    <img className='w-full h-full shadow-xl' src={image.link} />
                   </div>
                 )
               })}

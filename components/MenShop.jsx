@@ -8,7 +8,7 @@ const MenShop = () => {
   return (
     <>
     <main className={`min-h-screen w-screen flex flex-col items-center relative top-32 gap-16 ${showModal && 'blur'}`}>
-      <h1 className='text-6xl border-b-2 border-black pb-4'>IN STOCK</h1>
+      <h1 className='pb-4 text-6xl border-b-2 border-black'>IN STOCK</h1>
       {loading && (
         <div role="status">
             <svg aria-hidden="true" className="w-8 h-8 mr-2 text-gray-200 animate-spin fill-black" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,13 +18,13 @@ const MenShop = () => {
             <span className="sr-only">Loading...</span>
         </div>
     )}
-      <section className='w-[75%] h-full grid grid-cols-4 gap-6 pb-16 sm:w-11/12 sm:grid-cols-2'>
+      <section className='w-[75%] h-full grid lg:grid-cols-4 gap-6 pb-16 sm:w-11/12 md:grid-cols-3 sm:grid-cols-2'>
         {menClothes.map((product,index) => (
-          <div className='flex w-full flex-col items-center'>
-            <div className='overflow-hidden shadow-xl h-72 w-full sm:h-60'>
+          <div className='flex flex-col items-center w-full'>
+            <div className='w-full overflow-hidden shadow-xl h-72 sm:h-60'>
               <img onClick={() => handleProductClick(index)} src={product.altImageUrl ? product.altImageUrl : product.image.url} width={500} height={500} className='h-full w-full hover:scale-[1.5] cursor-pointer'></img>
             </div>
-            <div className='w-full flex flex-col items-left py-4'>
+            <div className='flex flex-col w-full py-4 items-left'>
               <p className='text-base font-bold'>{product.productTitle}</p>
               <p className='text-sm'>{product.prices[0].regularPrice.minPrice}$</p>
             </div>

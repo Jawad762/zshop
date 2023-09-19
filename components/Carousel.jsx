@@ -29,8 +29,8 @@ const images = [
             <Slider {...settings}>
               {images.map(image => {
                 return (
-                  <div className="h-72 px-8 focus:outline-none">
-                    <img className='h-full w-full shadow-xl' src={image.link} />
+                  <div className="px-8 h-72 focus:outline-none">
+                    <img className='w-full h-full shadow-xl md:h-5/6' src={image.link} />
                   </div>
                 )
               })}
