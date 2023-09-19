@@ -17,7 +17,7 @@ const Homepage = () => {
 
           {/* section 1 mobile version : women*/}
           <Link href='/women' className='w-full'>
-            <section className="h-[35vh] sm:h-[45vh]  w-full flex flex-col items-center justify-center md:hidden relative">
+            <section className="h-[35vh] sm:h-[40vh]  w-full flex flex-col items-center justify-center md:hidden relative">
               <img className='h-full w-full brightness-[0.8]' src="https://ilarge.lisimg.com/image/1326863/1118full-elyse-taylor.jpg"></img>
               <div className='absolute flex flex-col items-center justify-center gap-2'>
                 <h1 className="font-bold text-white sm:text-2xl brightness-[1]">Women</h1> 
@@ -53,7 +53,7 @@ const Homepage = () => {
 
             {/* section 2 mobile version: men*/}
             <Link href='/men' className='w-full'>
-            <section className="h-[35vh] sm:h-[45vh] w-full flex flex-col items-center justify-center md:hidden relative">
+            <section className="h-[35vh] sm:h-[40vh] w-full flex flex-col items-center justify-center md:hidden relative">
               <img className='h-full w-full brightness-[0.8]' src="https://brand-mag.com/wp-content/uploads/DwHxS0aWwAEqgBp.jpg"></img>
               <div className='absolute flex flex-col items-center justify-center gap-2'>
                 <h1 className="font-bold text-white sm:text-2xl brightness-[1]">Men</h1> 
@@ -84,8 +84,8 @@ const Homepage = () => {
               </div>
   
               <div className="relative flex items-end justify-center w-3/6 h-full sm:w-4/6 sm:h-4/6">
-                <img className="absolute top-0 shadow-2xl h-4/6 sm:right-10 md:right-16 lg:right-0" src="https://lb.mikesport.com/cdn/shop/products/de8d5c3c259245e89598fcde07174ae4.png?v=1689306938&width=320"/>
-                <img className="absolute top-0 shadow-2xl h-4/6 sm:left-10 md:left-16 lg:left-0" src="https://lb.mikesport.com/cdn/shop/products/cacda66ae1c927a592ec07cc3fadc194.png?v=1677902634&width=360"/>
+                <img className="absolute top-0 shadow-2xl h-4/6 sm:right-0 md:right-16 lg:right-0" src="https://lb.mikesport.com/cdn/shop/products/de8d5c3c259245e89598fcde07174ae4.png?v=1689306938&width=320"/>
+                <img className="absolute top-0 shadow-2xl h-4/6 sm:left-0 md:left-16 lg:left-0" src="https://lb.mikesport.com/cdn/shop/products/cacda66ae1c927a592ec07cc3fadc194.png?v=1677902634&width=360"/>
                 <img className="absolute shadow-2xl h-4/6" src="https://lb.mikesport.com/cdn/shop/products/5febb4cbc09961e1e734475ddff7a777.png?v=1671503682&width=560"/>
               </div>
           </section>
